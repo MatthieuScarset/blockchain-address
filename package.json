@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-address",
+  "description": "Save your physical location on the blockchain.",
+  "version": "1.0.0",
+  "scripts": {
+    "ganache": "./node_modules/.bin/ganache-cli",
+    "truffle": "./node_modules/.bin/truffle",
+    "migrate": "npm run truffle migrate",
+    "watch": "npm run ganache",
+    "test": "npm run truffle test"
+  },
+  "author": {
+    "name": "Matthieu SCARSET",
+    "url": "https://matthieuscarset.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ganache-cli": "^6.10.1",
+    "truffle": "^5.1.43"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
+}
